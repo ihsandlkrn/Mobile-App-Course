@@ -1,0 +1,31 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable cat_background
+drawable dog_background
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnArrayAdapter
+id btnCustomAdapter
+id label
+id listview
+id main
+id pic
+layout activity_array_adapter
+layout activity_custom_adapter
+layout activity_main
+layout listview_row
+mipmap cat
+mipmap cat_foreground
+mipmap cat_round
+mipmap dog
+mipmap dog_foreground
+mipmap dog_round
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Week2
+style Theme.Week2
+xml backup_rules
+xml data_extraction_rules
