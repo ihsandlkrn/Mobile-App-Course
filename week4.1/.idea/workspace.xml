@@ -4,14 +4,28 @@
     <shared>
       <config />
     </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/Theme.Week4</theme>
+        </config>
+      </layout>
+    </layouts>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9a6cb54-080d-4f14-90ca-7eb9caae273d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../week3/app/src/main/java/msku/ceng/madlab/week3/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/app/src/main/java/msku/ceng/madlab/week3/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3/app/src/main/java/msku/ceng/madlab/week3/PostActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/app/src/main/java/msku/ceng/madlab/week3/PostActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/msku/ceng/madlab/week4/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/msku/ceng/madlab/week4/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +35,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=/Users/ulas/.android/avd/Pixel_6.avd)]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\ihsan\.android\avd\Pixel.avd)]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -30,9 +44,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="33sKgxFh5hmi0OWq1qZ002NZSL5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -49,7 +63,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/ulas/Documents/MAD/week4.1"
+    "last_opened_file_path": "C:/Users/ihsan/AndroidStudioProjects/week4.1"
   }
 }]]></component>
   <component name="RunManager">
@@ -141,12 +155,12 @@
       <map>
         <entry key="msku.ceng.madlab.week4">
           <value>
-            <CheckInfo lastCheckTimestamp="1760100481226" />
+            <CheckInfo lastCheckTimestamp="1760599860793" />
           </value>
         </entry>
         <entry key="msku.ceng.madlab.week4.test">
           <value>
-            <CheckInfo lastCheckTimestamp="1760100481226" />
+            <CheckInfo lastCheckTimestamp="1760599860793" />
           </value>
         </entry>
       </map>

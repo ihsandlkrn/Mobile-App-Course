@@ -3,6 +3,11 @@ package msku.ceng.madlab.week4;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.View;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
+import android.widget.Button;
+import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,6 +19,10 @@ import com.google.android.material.appbar.MaterialToolbar;
 
 public class MainActivity extends AppCompatActivity {
 
+
+    Button btnGo;
+    EditText txtURL;
+    WebView webView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +36,26 @@ public class MainActivity extends AppCompatActivity {
 
         MaterialToolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        btnGo = findViewById(R.id.btnGo);
+        txtURL = findViewById(R.id.txtUrl);
+        webView = findViewById(R.id.webView);
+
+        webView.setWebViewClient(new WebViewClient());
+
+        btnGo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                webView.loadUrl("https://" + txtURL.getText());
+            }
+        });
+
+
+
+        if (getIntent() != null && getIntent().getData() != null){
+
+            txtURL.setText(getIntent().getData().toString());
+            webView.loadUrl(getIntent().getData().toString());
+        }
     }
 
     @Override
