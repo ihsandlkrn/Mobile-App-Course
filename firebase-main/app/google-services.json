@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "866846557510",
+    "project_id": "mynotesfirebase-74906",
+    "storage_bucket": "mynotesfirebase-74906.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866846557510:android:a32b6e72c849b54dacd147",
+        "android_client_info": {
+          "package_name": "msku.ceng.madlab.mynotesfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1mG7ZAspu9ex8SjlVcDp3X8pSDEPJkz0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
